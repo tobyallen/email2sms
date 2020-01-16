@@ -1,10 +1,10 @@
 {
     "env": {
-        "TWILIO_ACCOUNT_SID": "@twilio_account_sid",
-        "TWILIO_AUTH_TOKEN": "@twilio_auth_token",
-        "SENDGRID_API_KEY": "@sendgrid_api_key",
-        "EMAIL_DOMAIN": "@email_domain",
-        "TO_EMAIL_ADDRESS": "@to_email_address",
-        "TWILIO_PHONE_NUMBER": "@twilio_phone_number"
+        "TWILIO_ACCOUNT_SID": "AC041057c5c347d9be4d42c404c824db99",
+        "TWILIO_AUTH_TOKEN": "a5076c28303f6203da24c976593f0ba6",
+        "SENDGRID_API_KEY": "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",
+        "EMAIL_DOMAIN": "parse.tobytes.com",
+        "TO_EMAIL_ADDRESS": "twoway@tobytes.com",
+        "TWILIO_PHONE_NUMBER": "+12562578413"
     }
 }

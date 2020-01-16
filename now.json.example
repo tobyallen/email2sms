@@ -1,0 +1,10 @@
+{
+    "env": {
+        "TWILIO_ACCOUNT_SID": "<Obtain from Twilio Console>",
+        "TWILIO_AUTH_TOKEN": "<Obtain from Twilio Console>",
+        "SENDGRID_API_KEY": "<Obtain from SendGrid Console>",
+        "EMAIL_DOMAIN": "<Chosen Inbound Email Domain>",
+        "TO_EMAIL_ADDRESS": "<Chosen Shared Inbox>",
+        "TWILIO_PHONE_NUMBER": "<SMS Capable Twilio Number>"
+    }
+}
