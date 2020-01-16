@@ -1,0 +1,10 @@
+{
+    "env": {
+        "TWILIO_ACCOUNT_SID": "@twilio_account_sid",
+        "TWILIO_AUTH_TOKEN": "@twilio_auth_token",
+        "SENDGRID_API_KEY": "@sendgrid_api_key",
+        "EMAIL_DOMAIN": "@email_domain",
+        "TO_EMAIL_ADDRESS": "@to_email_address",
+        "TWILIO_PHONE_NUMBER": "@twilio_phone_number"
+    }
+}
