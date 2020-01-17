@@ -28,6 +28,7 @@ module.exports = async (req, res) => {
         console.log(msg)
         res.status(200).send(msg.sid);
     }).catch(err => {
+        console.log(err);
         //If we get an error when sending the SMS email the error message back to the sender
         sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
