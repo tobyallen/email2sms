@@ -18,7 +18,7 @@ module.exports = (req, res) => {
     // Send the email
     sgMail.send(email)
         .then(response => {
-            let twiml = new MessagingResponse();
-            res.status(200).json(twiml); //Make sure we return correctly.
+            res.setHeader('Content-Type', 'text/xml');
+            res.status(200).send("<Response></Response >"); //Make sure we return correctly.
         })
 };
